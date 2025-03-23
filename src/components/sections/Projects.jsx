@@ -45,19 +45,17 @@ export const Projects = () => {
                 ))}
               </div>
 
-              <div className="flex flex-col items-center mt-auto gap-2">
+              <div className="flex flex-col items-center mt-auto gap-2 text-center">
                 <a href="https://github.com/JaniduR1/Back-End-OCR-Stuff"
                 className="text-cyan-700 hover:text-cyan-500 transition-colors">
                   OCR (WIP) →
                 </a>
                 <a href="https://github.com/JaniduR1/glyph_gateway"
-                className="text-cyan-700 hover:text-cyan-500 transition-colors"
-                >
+                className="text-cyan-700 hover:text-cyan-500 transition-colors">
                   Frontend →
                 </a>
                 <a href="https://github.com/JaniduR1/NodeServer"
-                className="text-cyan-700 hover:text-cyan-500 transition-colors pb-4"
-                >
+                className="text-cyan-700 hover:text-cyan-500 transition-colors pb-4">
                   Backend [Optimised model's Checkpoint.bin included] →
                 </a>
               </div>

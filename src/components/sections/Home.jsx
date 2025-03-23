@@ -12,7 +12,7 @@ export const Home = () => {
                     </h1>
 
                     <p className="text-blue-950 text-lg mb-8 max-w-lg mx-auto font-bold">
-                        I’m a software engineer who enjoys building clean, efficient, and modern web applications. 
+                        I’m a software engineer who enjoys writing clean and efficient code, and building modern, scalable applications. 
                         Whether it’s developing APIs, designing user interfaces, or putting together full-stack solutions, 
                         I like figuring things out and making stuff that works — and works well.
                         <br />
@@ -21,7 +21,7 @@ export const Home = () => {
                             Most of the time, anyway… after quite a few "why isn’t this working?!" moments 
                             and 47 {" "}
                             <span className="bg-gray-200 text-blue-950 px-1 py-0.5 rounded-none font-mono">
-                                print("here")
+                                print("here!!!")
                             </span>
                             {" "} statements later
                         </span>

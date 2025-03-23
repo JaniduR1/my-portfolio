@@ -28,7 +28,7 @@ export const About = () => {
                 <div className="rounded-xl p-8 border-blue-950/10 border hover:-translate-y-1 transition-all justify-center text-center">
 
                     <p className="text-blue-950 mb-6">
-                    I’m a software engineer who enjoys learning by building. I’ve worked on everything from AI-powered translators to full-stack apps, 
+                    I’m a software engineer who enjoys learning by building. I’ve worked on multiple different things, from AI-powered translators to full-stack apps, 
                     and I’m always exploring new tech to level up my skills. Most of what I know comes from breaking things, 
                     fixing them, and then figuring out how to make them better.
                     </p>
