@@ -11,28 +11,28 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       <a
         href="#home"
         onClick={() => setMenuOpen(false)}
-        className="text-blue-900 text-xl hover:text-blue-300 transition-colours my-6">
+        className="text-blue-950 text-xl hover:text-blue-300 transition-colours my-6">
         Home
       </a>
 
       <a
         href="#about"
         onClick={() => setMenuOpen(false)}
-        className="text-blue-900 text-xl hover:text-blue-300 transition-colours my-6">
+        className="text-blue-950 text-xl hover:text-blue-300 transition-colours my-6">
         About
       </a>
 
       <a
         href="#projects"
         onClick={() => setMenuOpen(false)}
-        className="text-blue-900 text-xl hover:text-blue-300 transition-colours my-6">
+        className="text-blue-950 text-xl hover:text-blue-300 transition-colours my-6">
         Projects
       </a>
 
       <a
         href="#contact"
         onClick={() => setMenuOpen(false)}
-        className="text-blue-900 text-xl hover:text-blue-300 transition-colours my-6">
+        className="text-blue-950 text-xl hover:text-blue-300 transition-colours my-6">
         Contact
       </a>
 

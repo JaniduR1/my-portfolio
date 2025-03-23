@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+html {
+  scroll-padding-top: 2rem;
+  scroll-behavior: smooth;
+}
+
 html, body {
   font-family: 'STIX Two Text', sans-serif;
   margin: 0;
@@ -15,6 +20,17 @@ html, body {
   font-optical-sizing: auto;
   font-weight: 900;
   font-style: normal;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 

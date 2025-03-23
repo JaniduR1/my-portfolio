@@ -14,7 +14,7 @@ export const About = () => {
     return (
         <section
         id="about"
-        className="min-h-screen flex items-center justify-center py-20"
+        className="min-h-screen bg-white flex items-center justify-center py-20"
         >
         <ScrollReveal>
             <div className="max-w-3xl mx-auto px-4">
@@ -56,21 +56,30 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4 text-center text-blue-950">💻 My Projects</h3>
                         <ul className="list-disc list-inside text-blue-950 space-y-2 text-left">
                             <li>
-                                Designed an AI-powered hieroglyphics translator using PyTorch and a custom CNN, paired with a Flutter frontend and NodeJS backend.
+                                OCR-based hieroglyph translator using machine learning and a custom Flutter frontend.
                             </li>
                             <li>
-                                Built scalable REST APIs using ExpressJS and Falcon, with responsive frontends in Vue and React.
+                                RESTful APIs with ExpressJS and Falcon, paired with React and Vue interfaces. Containerised with Docker to streamline deployment and CI workflows.
                             </li>
                             <li>
-                                Containerised client-server apps with Docker to streamline deployment and CI workflows.
+                                Educational app in C# using test-driven development and OOP design.
                             </li>
                             <li>
-                                Created Bash scripts to automate file management and system tasks in a Linux environment.
+                                Movie search app with Appwrite, TMDB API, and interactive React components.
                             </li>
                             <li>
-                                Applied test-driven development in a C# educational app using OOP principles.
+                                Bash scripts to automate file management and system tasks in a Linux environment.
                             </li>
                         </ul>
+                        <p className="mt-4 text-cyan-600 text-center">
+                            For the full list and demos, check out my{" "}
+                            <a href="https://github.com/JaniduR1?tab=repositories"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="underline font-medium hover:text-blue-500 transition">
+                                GitHub →
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
