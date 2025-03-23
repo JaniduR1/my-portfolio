@@ -72,7 +72,7 @@ export const About = () => {
                             </li>
                         </ul>
                         <p className="mt-4 text-cyan-600 text-center">
-                            For the full list and demos, check out my{" "}
+                            Check out all my repos here{" "}
                             <a href="https://github.com/JaniduR1?tab=repositories"
                                 target="_blank"
                                 rel="noopener noreferrer"
