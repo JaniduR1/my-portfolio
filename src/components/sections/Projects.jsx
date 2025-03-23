@@ -44,14 +44,24 @@ export const Projects = () => {
                   </span>
                 ))}
               </div>
-              <div className="flex justify-center mt-auto">
-                <a
-                  href="#"
-                  className="text-cyan-700 hover:text-cyan-500 transition-colors my-4"
+
+              <div className="flex flex-col items-center mt-auto gap-2">
+                <a href="https://github.com/JaniduR1/Back-End-OCR-Stuff"
+                className="text-cyan-700 hover:text-cyan-500 transition-colors">
+                  OCR (WIP) →
+                </a>
+                <a href="https://github.com/JaniduR1/glyph_gateway"
+                className="text-cyan-700 hover:text-cyan-500 transition-colors"
                 >
-                  View Project →
+                  Frontend →
+                </a>
+                <a href="https://github.com/JaniduR1/NodeServer"
+                className="text-cyan-700 hover:text-cyan-500 transition-colors pb-4"
+                >
+                  Backend [Optimised model's Checkpoint.bin included] →
                 </a>
               </div>
+
             </div>
 
             <div className="glass p-6 rounded-xl border border-blue-950/10 hover:-translate-y-1 hover:border-cyan-400/30 hover:shadow-[0_4px_20px_rgba(34,211,238,0.2)] transition flex flex-col">
@@ -88,7 +98,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-center mt-auto">
                 <a
-                  href="#"
+                  href="https://github.com/JaniduR1/frameworks_and_languages_module"
                   className="text-cyan-700 hover:text-cyan-500 transition-colors my-4"
                 >
                   View Project →
@@ -128,7 +138,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-center mt-auto">
                 <a
-                  href="#"
+                  href="https://github.com/JaniduR1/Movie-App"
                   className="text-cyan-700 hover:text-cyan-500 transition-colors my-4"
                 >
                   View Project →
@@ -161,7 +171,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-center mt-auto">
                 <a
-                  href="#"
+                  href="https://github.com/JaniduR1/tmlms"
                   className="text-cyan-700 hover:text-cyan-500 transition-colors my-4"
                 >
                   View Project →

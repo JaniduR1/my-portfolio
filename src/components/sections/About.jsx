@@ -1,4 +1,6 @@
 import { ScrollReveal } from "../ScrollReveal";
+import githubLogo from "../../assets/github.svg";
+
 
 export const About = () => {
 
@@ -71,13 +73,14 @@ export const About = () => {
                                 Bash scripts to automate file management and system tasks in a Linux environment.
                             </li>
                         </ul>
-                        <p className="mt-4 text-cyan-600 text-center">
-                            Check out all my repos here{" "}
-                            <a href="https://github.com/JaniduR1?tab=repositories"
+
+                        <p className="mt-4 text-cyan-500 text-center">
+                            <a href="https://github.com/JaniduR1"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="underline font-medium hover:text-blue-500 transition">
-                                GitHub →
+                                className="inline-flex items-center font-medium hover:text-cyan-800 transition">
+                                Checkout my GitHub →
+                                <img src={githubLogo} alt="GitHub Logo" className="w-10 h-10 ml-2" />
                             </a>
                         </p>
                     </div>
