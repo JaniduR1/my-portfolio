@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import logo from "../assets/logo.svg";
 
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
@@ -12,8 +13,8 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
         <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-23">
             
-            <a href="#home" className="stix-two-bold text-4xl font-bold text-blue-950">
-                Janidu <span className="text-cyan-600">Rathnayaka</span>
+            <a href="#home" onClick={() => setMenuOpen(false)}>
+                <img src={logo} alt="Janidu Rathnayaka Logo" className="h-20" />
             </a>
 
 
