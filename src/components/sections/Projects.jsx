@@ -62,6 +62,48 @@ export const Projects = () => {
 
             </div>
 
+            <div className="glass p-6 rounded-xl border border-blue-950/10 hover:-translate-y-1 hover:border-cyan-400/30 hover:shadow-[0_4px_20px_rgba(34,211,238,0.2)] transition">
+              <h3 className="text-center text-xl font-bold mb-2 text-blue-900">
+                Crypto Trend Analysis App
+              </h3>
+              <p className="text-blue-950 mb-4">
+                Analysed Bitcoin’s historical market behaviour using time-series and volatility metrics. Used financial concepts like rolling volatility, daily returns, and SMOTE to uncover risk trends and rebalance the dataset. Trained and evaluated multiple models, including Logistic Regression and Random Forest, to predict future price movement. The final model, a tuned Random Forest classifier, showed balanced precision and recall across both classes.
+              </p>
+              <div className="flex flex-wrap justify-center gap-2 mb-4">
+                {[
+                  "Python",
+                  "pandas",
+                  "matplotlib",
+                  "yfinance",
+                  "SMOTE",
+                  "Logistic Regression",
+                  "Random Forest",
+                  "Machine Learning",
+                  "Time Series",
+                  "Streamlit",
+                ].map((tech, key) => (
+                  <span
+                    key={key}
+                    className="bg-gradient-to-r from-cyan-300 to-cyan-500 text-blue-950 py-1 px-3 rounded-full text-sm transition hover:from-cyan-500 hover:to-cyan-700 hover:shadow-[0_2px_8px_rgba(34,211,238,0.2)]"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div className="flex flex-col items-center mt-auto gap-2 text-center">
+                <a
+                  href="https://github.com/JaniduR1/Crypto-Trend-Analysis"
+                  className="text-cyan-700 hover:text-cyan-500 transition-colors">
+                  View Project →
+                </a>
+                <a
+                  href="https://crypto-trend-analysis-hlmztdlmaadchwv7bnmzfj.streamlit.app/"
+                  className="text-cyan-700 hover:text-cyan-500 transition-colors pb-4">
+                  View Model Evaluation Insights →
+                </a>
+              </div>
+            </div>
+
             <div className="glass p-6 rounded-xl border border-blue-950/10 hover:-translate-y-1 hover:border-cyan-400/30 hover:shadow-[0_4px_20px_rgba(34,211,238,0.2)] transition flex flex-col">
               <h3 className="text-center text-xl font-bold mb-2 text-blue-900">
                 Dynamic RESTful API Design

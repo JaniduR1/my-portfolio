@@ -15,9 +15,9 @@ export const LoadingScreen = ({ onComplete }) => {
 
         setTimeout(() => {
           onComplete();
-        }, 1000);
+        }, 800); // Delay After Text Completion
       }
-    }, 100);
+    }, 80); // Text speed
 
     return () => clearInterval(interval);
   }, [onComplete]);

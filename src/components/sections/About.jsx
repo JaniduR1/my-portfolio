@@ -61,6 +61,9 @@ export const About = () => {
                                 OCR-based hieroglyph translator using machine learning and a custom Flutter frontend.
                             </li>
                             <li>
+                                Crypto trend analysis app using real Bitcoin price data, SMOTE, and machine learning models to predict market direction.
+                            </li>
+                            <li>
                                 RESTful APIs with ExpressJS and Falcon, paired with React and Vue interfaces. Containerised with Docker to streamline deployment and CI workflows.
                             </li>
                             <li>
