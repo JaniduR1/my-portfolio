@@ -9,7 +9,9 @@ export const About = () => {
         "React", "VueJS", "TailwindCSS", "Bootstrap",
         "Django", "ExpressJS", "NodeJS",
         "Docker", "Git", "Jira", "CI/CD", "REST APIs",
-        "Bash", "SDLC", "Scrum", "Kanban"
+        "Bash", "SDLC", "Scrum", "Kanban",
+        "Machine Learning", "SMOTE", "Random Forest", "Logistic Regression",
+        "Backtesting", "Time Series", "Pandas", "Matplotlib", "OOP", "Polymorphism", "TDD"
     ];
 
 
@@ -62,6 +64,9 @@ export const About = () => {
                             </li>
                             <li>
                                 Crypto trend analysis app using real Bitcoin price data, SMOTE, and machine learning models to predict market direction.
+                            </li>
+                            <li>
+                                Moving average crossover trading with backtesting, risk control, and machine learning prediction using real BTC data.
                             </li>
                             <li>
                                 RESTful APIs with ExpressJS and Falcon, paired with React and Vue interfaces. Containerised with Docker to streamline deployment and CI workflows.
